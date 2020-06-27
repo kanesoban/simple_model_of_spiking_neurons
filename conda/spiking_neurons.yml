@@ -1,0 +1,16 @@
+name: spiking_neurons
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=10.1.243
+  - cudnn=7.6.5
+  - ipython>=7.13.0
+  - jupyterlab>=1.2.6
+  - numpy>=1.18.1
+  - python=3.6.10
+  - tensorflow-gpu==1.14.0
+  - pip:
+    - tqdm>=4.45.0
+prefix: /home/cszsolnai/anaconda3/envs/spiking_neurons
+
